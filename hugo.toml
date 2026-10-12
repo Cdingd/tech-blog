@@ -1,0 +1,15 @@
+baseURL = "https://cdingd.github.io/tech-blog/"
+languageCode = "zh-cn"
+title = "技术博客"
+enableRobotsTXT = true
+paginate = 9
+
+[params]
+  description = "AI 与前端的技术笔记"
+  author = "Cdingd"
+
+[markup.highlight]
+  style = "github"
+
+[markup.goldmark.renderer]
+  unsafe = true
